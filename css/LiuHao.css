@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.max-all{
+    width: 100%;
+    position: relative;
+}
+.max-header {
+    background: url("../images/liuimages/liuchuxin.png") no-repeat center center;
+    width: 662px;
+    height:120px;
+    position: relative;
+    transition: all .5s;
+    cursor:pointer;
+    margin: 0 auto;
+
+}
+.max-line{
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    margin-top: -88px;
+}
+/*8张效果图片开始*/
+.max{
+    width:100%;
+    height:120px;
+}
+.max-ct8{
+    width: 1200px;
+    margin: 0 auto;
+}
+.max-ct8 ul li{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.max-prev .liuCx{
+    background: url("../images/liuimages/liuxj.png") no-repeat;
+    width: 288px;
+    height: 450px;
+    position: absolute;
+    display: none;
+}
+.liuCT1{
+    font-size: 14px;
+    padding-top: 5px;
+    color: #666;
+}
+.liuCT2{
+    font-size: 10px;
+    line-height: 20px;
+    color: #666;
+}
+.max-word:hover p{
+    color: #B08746;
+}
+/*悬浮图片*/
+.max-header2{
+    background: url("../images/liuimages/liushipin.png") no-repeat center center;
+    width: 662px;
+    height:120px;
+    clear: both;
+    transition: all .5s;
+    margin: 0 auto;
+    top: 10px;
+    position: relative;
+}
+.max-line2{
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    margin-top: -88px;
+}
+/*客户真心话*/
+.max-boom{
+    width: 80%;
+    height: 294px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+.max-leftHand{
+    float: left;
+    width: 104px;
+    height: 293px;
+    background: url("../images/liuimgs/shang1.png");
+    vertical-align: middle;
+}

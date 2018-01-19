@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/LiuHao.css">
+</head>
+<body>
+<div class="max-all">
+<!--客片浮动开始-->
+<div class="max-header" style="top: 0" title="客片展示">
+    <a href="#"></a>
+</div>
+<div class="max-line"></div>
+<!--客片浮动结束-->
+<!--8张效果图片开始-->
+<div class="max"></div>
+<div class="max-ct8">
+    <ul>
+        <li>
+            <a href="#" title="最美新娘">
+            <div class="max-prev">
+                <i class="liuCx"></i>
+                <img src="../images/liuimages/liu1.jpg" alt="">
+            </div>
+            </a>
+            <div class="max-word">
+                <p class="liuCT1"><最美新娘>四</p>
+                <p class="liuCT2">CHINA BEIJING PHOTO WEDDING STUDIOS </p>
+            </div>
+        </li>
+
+
+        <li>
+            <a href="#" title="最美新娘">
+                <div class="max-prev">
+                    <i class="liuCx"></i>
+                    <img src="../images/liuimages/liu2.jpg" alt="">
+                </div>
+            </a>
+            <div class="max-word">
+                <p class="liuCT1"><最美新娘>三</p>
+                <p class="liuCT2">CHINA BEIJING PHOTO WEDDING STUDIOS </p>
+            </div>
+        </li>
+
+        <li>
+            <a href="#" title="最美新娘">
+                <div class="max-prev">
+                    <i class="liuCx"></i>
+                    <img src="../images/liuimages/liu3.jpg" alt="">
+                </div>
+            </a>
+            <div class="max-word">
+                <p class="liuCT1"><最美新娘>二</p>
+                <p class="liuCT2">CHINA BEIJING PHOTO WEDDING STUDIOS </p>
+            </div>
+        </li>
+
+        <li>
+            <a href="#" title="最美新娘">
+                <div class="max-prev">
+                    <i class="liuCx"></i>
+                    <img src="../images/liuimages/liu4.jpg" alt="">
+                </div>
+            </a>
+            <div class="max-word">
+                <p class="liuCT1"><最美新娘>一</p>
+                <p class="liuCT2">CHINA BEIJING PHOTO WEDDING STUDIOS </p>
+            </div>
+        </li>
+
+        <li>
+            <a href="#" title="最美新娘">
+                <div class="max-prev">
+                    <i class="liuCx"></i>
+                    <img src="../images/liuimages/liu5.jpg" alt="">
+                </div>
+            </a>
+            <div class="max-word">
+                <p class="liuCT1"><最美新娘>四</p>
+                <p class="liuCT2">CHINA BEIJING PHOTO WEDDING STUDIOS </p>
+            </div>
+        </li>
+
+        <li>
+            <a href="#" title="最美新娘">
+                <div class="max-prev">
+                    <i class="liuCx"></i>
+                    <img src="../images/liuimages/liu6.jpg" alt="">
+                </div>
+            </a>
+            <div class="max-word">
+                <p class="liuCT1"><最美新娘>三</p>
+                <p class="liuCT2">CHINA BEIJING PHOTO WEDDING STUDIOS </p>
+            </div>
+
+        <li>
+            <a href="#" title="最美新娘">
+                <div class="max-prev">
+                    <i class="liuCx"></i>
+                    <img src="../images/liuimages/liu7.jpg" alt="">
+                </div>
+            </a>
+        <div class="max-word">
+            <p class="liuCT1"><最美新娘>二</p>
+            <p class="liuCT2">CHINA BEIJING PHOTO WEDDING STUDIOS </p>
+        </div>
+        </li>
+
+        <li>
+            <a href="#" title="最美新娘">
+                <div class="max-prev">
+                    <i class="liuCx"></i>
+                    <img src="../images/liuimages/liu8.jpg" alt="">
+                </div>
+            </a>
+            <div class="max-word">
+                <p class="liuCT1"><最美新娘>一</p>
+                <p class="liuCT2">CHINA BEIJING PHOTO WEDDING STUDIOS</p>
+            </div>
+
+        </li>
+    </ul>
+</div>
+</div>
+<!--客片浮动开始-->
+
+<div class="max-header2" title="客片展示">
+        <a href="#"></a>
+</div>
+<div class="max-line2"></div>
+<div class="max"></div>
+<!--客片浮动结束-->
+</body>
+</html>
+<script src="../bootstrap/js/jquery-1.11.3.js"></script>
+<script>
+    /*图片晃动*/
+    $(".max-header").mouseenter(function () {
+        $(".max-header").css("top","-10px");
+    });
+    $(".max-header").mouseleave(function () {
+        $(".max-header").css("top","0px");
+    });
+    /*八张图事件*/
+    $(".max-prev").hover(function () {
+        $(this).find("i").stop().slideToggle();
+    });
+    /*图片晃动*/
+    $(".max-header2").mouseenter(function () {
+        $(".max-header2").css("top","-10px");
+    });
+    $(".max-header2").mouseleave(function () {
+        $(".max-header2").css("top","0px");
+    });
+</script>
